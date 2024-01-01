@@ -27,7 +27,6 @@ public class Dbutils {
  
                 rows.addElement(newRow);
             }
- 
             return new DefaultTableModel(rows, columnNames);
         } catch (Exception e) {
             e.printStackTrace();
